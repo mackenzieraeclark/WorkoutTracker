@@ -1,5 +1,5 @@
 const app = require("express").Router();
-const workout = require("/models/workout.js");
+const workout = require("../models/workout.js");
 
 // POST a new workout
 app.post("/api/workouts", ({body}, res) => {
@@ -11,7 +11,7 @@ app.post("/api/workouts", ({body}, res) => {
 });
 
 //GET the most recent workout
-app.get("api/workouts", (req, res) => {
+app.get("/api/workouts", (req, res) => {
     workout.find({}).then(dbWorkout => {
         res.json(dbWorkout);
     }).catch(err => {
