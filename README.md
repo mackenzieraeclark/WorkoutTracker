@@ -1,2 +1,23 @@
 # WorkoutTracker
 Workout Tracker allows you to monitor your workout plan so you can see real results. This application uses a Mongo database with a Mongoose schema and handles routes with Express.
+
+  ## Table of Contents
+* [Installation](#Installation)
+* [Technologies](#Technologies)
+* [Tests](#tests)
+* [License](#License)
+## Installation
+run npm i from cli then node server.js
+## Technologies
+* [Badge](Node Js)
+* Express
+* Mongo DB
+* mongoose
+* Morgan(dev)
+* HTML
+* CSS
+## Tests
+Robo3T used to test routes & posts.
+## License
+This project is licensed under [MIT License](https://choosealicense.com/licenses/).
+***
