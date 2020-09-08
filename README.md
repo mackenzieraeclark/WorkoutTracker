@@ -9,13 +9,9 @@ Workout Tracker allows you to monitor your workout plan so you can see real resu
 ## Installation
 run npm i from cli then node server.js
 ## Technologies
-* [Badge](Node Js)
-* Express
-* Mongo DB
-* mongoose
-* Morgan(dev)
-* HTML
-* CSS
+* Node.js
+* Express.js
+* MongoDB & Mongoose
 ## Tests
 Robo3T used to test routes & posts.
 ## License
