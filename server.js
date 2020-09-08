@@ -20,3 +20,8 @@ mongoose.connect(MONGODB_URI, {
 // Require routes
 app.use(require("/routes/api-route.js"));
 app.use(require("/routes/route.js"));
+
+// Start server (listening)
+app.listen(PORT, () => {
+    console.log(`This application is running on PORT ${PORT}.`);
+});
