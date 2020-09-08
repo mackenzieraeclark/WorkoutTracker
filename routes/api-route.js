@@ -11,7 +11,13 @@ app.post("/api/workouts", ({body}, res) => {
 });
 
 //GET the most recent workout
-
+app.get("api/workouts", ({body}, res) => {
+    workout.find({}).then(dbWorkout => {
+        res.json(dbWorkout);
+    }).catch(err => {
+        res.status(400).json(err);
+    });
+});
 //PUT in a new exercise
 
 //GET daily workouts for chart info
